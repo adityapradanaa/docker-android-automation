@@ -1,0 +1,25 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.4",
+        "@babel/register": "^7.16.0",
+        "@wdio/appium-service": "^7.16.6",
+        "@wdio/cli": "^7.16.8",
+        "@wdio/cucumber-framework": "^7.16.6",
+        "@wdio/local-runner": "^7.16.8",
+        "@wdio/spec-reporter": "^7.16.4"
+    },
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js",
+        "start-server": "appium",
+        "test": "wdio wdio.conf.js"
+    },
+    "dependencies": {
+        "appium": "^1.22.1",
+        "dotenv": "^10.0.0",
+        "supertest": "^6.1.6"
+    }
+}
