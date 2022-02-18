@@ -188,7 +188,7 @@ exports.config = {
 
   beforeScenario: async (uri, feature, scenario) => {
     await driver.launchApp();
-    await driver.pause(5000);
+    await driver.pause(3000);
   },
   afterScenario: async () => {
     await driver.closeApp();

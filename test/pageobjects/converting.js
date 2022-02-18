@@ -10,13 +10,11 @@ const Converting = function converting() {
   };
 
   this.inputValue = async () => {
-    const celciusTextField = $('id:editText1');
+    await celciusTextField.click();
     await celciusTextField.addValue('100');
-    await driver.setTimeouts(750);
   };
 
-  this.validateValue = async () => {
-    const fahrenheitTextField = $('id:editText2'); 
+  this.validateValue = async () => { 
     await expect(fahrenheitTextField).toHaveTextContaining('212');
   };
 };
