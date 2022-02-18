@@ -17,3 +17,6 @@
 - `docker-compose down` stop and remove containers and networks (optionally images and volumes as well)
 - `docker-compose stop` stop services
 - open http://localhost:6080/ for emulator docker interface
+
+# Docker Android
+https://github.com/budtmo/docker-android
